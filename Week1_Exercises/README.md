@@ -8,3 +8,6 @@ The Chinese zodiac assigns animals to years in a 12-year cycle. One 12-year cycl
 
 ## 3
 A program that reads a year from the user and displays a message indicating whether or not it is a leap year.
+
+## 4
+Program that displays a temperature conversion table for degrees Celsius and degrees Fahrenheit. The table includes rows for all temperatures between 0 and 100 degrees Celsius that are multiples of 10 degrees Celsius.

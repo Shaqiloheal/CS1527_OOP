@@ -11,3 +11,6 @@ A program that reads a year from the user and displays a message indicating whet
 
 ## 4
 Program that displays a temperature conversion table for degrees Celsius and degrees Fahrenheit. The table includes rows for all temperatures between 0 and 100 degrees Celsius that are multiples of 10 degrees Celsius.
+
+## 5
+Program that checks wether or not the word given by the user's input is a palindrome e.g (Hannah, civic, level are Palindromes).

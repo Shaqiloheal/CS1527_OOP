@@ -14,3 +14,6 @@ Program that displays a temperature conversion table for degrees Celsius and deg
 
 ## 5
 Program that checks wether or not the word given by the user's input is a palindrome e.g (Hannah, civic, level are Palindromes).
+
+## 6
+Program that determines wether or not the users integer is a prime number.

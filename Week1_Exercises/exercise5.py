@@ -16,7 +16,3 @@ else:
     print(userInput,"is not a palindrome.")
 
 
-word = "maggie"
-word2= word[::-1]
-print(word2)
-

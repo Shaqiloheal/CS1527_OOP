@@ -1,5 +1,5 @@
-# CGS Calculator designed to implement functions based on program example writted by Dr. Bruce Scharlau
-# University of Aberdeen
+# CGS Calculator designed to implement functions based on program example written by Dr. Bruce Scharlau's
+# (University of Aberdeen) GPA Calculator modified to fit with the Common Grade Scaling (CGS) used in Aberdeen.
 
 def welcome():
     """ a welcome message for users """

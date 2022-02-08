@@ -1,25 +1,18 @@
-# Examples from CS1527 - Lecture 2.2
-
-# New object classes can be easily defined:
-class Student:
-    """ A class representing a student """
-    def __init__(self, na , ag): #initialises objects (instances) created in the class
-        self.full_name = na #self - a special parameter which refrences the object being created
-        self.age = ag
-
-    def get_age(self): #method - returns value of age attribute
-        return self.age
+# Examples from CS1527 - Lecture 2.2 - 2.6
 
 class Car:
-    all_cars = []
     """ A simple Car class example """
+    all_cars = []
+    
 
     """ Initialising """
     def __init__(self,ma,mo,yr):
         self.make = ma
         self.model = mo
         self.year = yr
-        self.odometer_reading = 0
+        """_odometer_reading should only be
+        accessed/modified via internal methods"""
+        self._odometer_reading = 0
         Car.all_cars.append(self)
     
     @classmethod
@@ -40,12 +33,6 @@ class Car:
     def increment_odometer(self, miles):
         self.odometer_reading += miles
 
-
-#Students
-
-john = Student('John Cleese', 78) #created Student object, held in variable john.
-
-#print(john.full_name, john.age)
 
 #Cars
 vw_car_1 = Car('Volkswagen', 'Golf', 2019) #created Car object, held in variable car_1.

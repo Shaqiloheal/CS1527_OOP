@@ -17,3 +17,6 @@ Program that checks wether or not the word given by the user's input is a palind
 
 ## 6
 Program that determines wether or not the users integer is a prime number.
+
+## 7 
+A function that determines whether or not a password is good. It will define a good password to be one that is at least 8 characters long and contains at least one uppercase letter, at least one lowercase letter, and at least one number.

@@ -26,9 +26,8 @@ class Point:
     def __str__(self):
         return "({0}, {1})".format(self._x, self._y)
 
-
-"""Defines parent Class Shape with additional Point class to represent its centre"""
 class Shape:
+    """Defines parent Class Shape with additional Point class to represent its centre"""
 
     def __init__(self, x, y, co):
         self._colour = co
@@ -37,8 +36,8 @@ class Shape:
     def get_colour(self):
         return self._colour
 
-"""Defines child Class Rectangle(Shape)"""
 class Rectangle(Shape):
+    """Defines child Class Rectangle(Shape)"""
 
     def __init__(self, x, y, co, wi=2.0, le=3.0):
         self._width = wi
@@ -58,9 +57,8 @@ class Rectangle(Shape):
             ', length ' + str(self._length) + ' & colour ' + str(self._colour) + \
                 ' @ ' + str(self._centrepoint)
 
-
-"""Defines child Class Circle(Shape)"""
 class Circle(Shape):
+    """defines child class of Cylinder(Circle)"""
 
     def __init__(self, x, y, co, ra=1.0):
         self._radius = ra
@@ -79,8 +77,8 @@ class Circle(Shape):
             ' & colour ' + str(self._colour) + ' @ ' + \
                 str(self._centrepoint)
 
-"""defines child class of Cylinder(Circle)"""
 class Cylinder(Circle):
+    """defines child class of Cylinder(Circle)"""
 
     def __init__(self, x, y, co, ra=2.5, he=5.0):
         self._height = he

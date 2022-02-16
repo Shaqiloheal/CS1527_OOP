@@ -23,5 +23,6 @@ class Counter:
         self._my_total += amount
 
     def decrement(self, amount = 1):
+        """Decrements the count"""
         self._my_total -= amount
-        
+

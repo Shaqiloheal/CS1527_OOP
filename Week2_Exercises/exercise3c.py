@@ -110,4 +110,6 @@ def test_shapes():
 # due to centrepoint.dist_from_origin() no longer working. As class Cylinder
 # is using its _base attribute (Circle):    
 
-if __name__ == "__main__": test_shapes()
+if __name__ == "__main__": 
+    
+    test_shapes()

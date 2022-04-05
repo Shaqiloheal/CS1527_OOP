@@ -3,12 +3,13 @@
 # Week 2 - Exercise 2
 # Defines a class InputOutString
 
+""" Creates class that gets string and prints string in upper case"""
 class InputOutString:
 
-    """"""
+    """ initialising """
     def __init__(self):
         self._word = ""
-        
+           
     def get_string(self):
         self._word = input("Please enter a word: " )
         

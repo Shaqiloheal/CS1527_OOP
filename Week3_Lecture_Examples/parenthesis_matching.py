@@ -2,7 +2,7 @@
 from arraystack import ArrayStack
 
 def is_matched(expr):
-    """Return True if all delimiters are properlu matched"""
+    """Return True if all delimiters are properly matched"""
 
     lefty = '({['                 # opening delimiters
     righty = ')}]'                # closing delimiters
